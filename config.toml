@@ -1,0 +1,135 @@
+baseURL = "http://beeplus.eutopia.zone"
+#languageCode = "en-us"
+languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
+title = "BEE+ by Eutopia"
+theme = "infinity-hugo"
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/logo.png"
+        home = "Home"
+        about = "About"
+        service = "Services"
+        contact = "Contact"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/header-bg.jpg"
+        title       = "BEE+"
+        title2      = "L'Apiculture Augmentee"
+        subtitle    = "L'IoT au service des Abeilles (Et surtout des humains)"
+        btnText     = ">>>>"
+        countdownYear = "2019"
+        countdownMonth = "08"
+        countdownDay  = "01"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "25% des pollinisateurs sont sauvages - 75% des pollinisateurs sont les abeilles domestiques - 100% de l'humanite depend des pollinisateurs"
+        description = "On attends des apiculteurs qu'ils augmentent le nombre de ruches. On oublie que le métier est dur, les investissments importants et les risques élevées. L'IoT (Internet of Things) offre une aide considérable aux apiculteurs en offrant des solutions de télésurveillance. Encore faut-il que celles-ci soient abordables et fiables."
+        description2 = "BEE+ vise a offrir des solutions complètes et innovantes couvrant tous les besoins des apiculteurs au plus bas cout possible."
+
+        [[params.about.sliderItem]]
+            image   = "images/about/1.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/2.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/3.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/2.jpg"
+
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "Find Better Solutions Build Better Products"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "Fully Responsive"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "Speed Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Tons of Feature"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.4s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Fully SEO Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.6s"
+        
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "Fully Responsive"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.8s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "Speed Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Tons of Feature"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Fully SEO Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1.5s"
+    
+    
+    # Call to Action Section
+    [params.cta]
+        enable      = true
+        bg          = "images/call-to-action.jpg"
+        title       = "Subscribe to our mailing list"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+    [params.contact]
+        enable      = true
+        title       = "Get In Touch"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
