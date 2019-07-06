@@ -6,7 +6,8 @@
 
 # hugo tmp and static build
 /resources/_gen/
-/static/
+/public/
+
 
 # Logs
 logs
