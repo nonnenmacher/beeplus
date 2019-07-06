@@ -30,9 +30,9 @@ theme = "infinity-hugo"
     # About Section
     [params.about]
         enable      = true
-        heading     = "25% des pollinisateurs sont sauvages - 75% des pollinisateurs sont les abeilles domestiques - 100% de l'humanite depend des pollinisateurs"
-        description = "On attends des apiculteurs qu'ils augmentent le nombre de ruches. On oublie que le métier est dur, les investissments importants et les risques élevées. L'IoT (Internet of Things) offre une aide considérable aux apiculteurs en offrant des solutions de télésurveillance. Encore faut-il que celles-ci soient abordables et fiables."
-        description2 = "BEE+ vise a offrir des solutions complètes et innovantes couvrant tous les besoins des apiculteurs au plus bas cout possible."
+        heading     = "25% des pollinisateurs sont sauvages - 75% des pollinisateurs sont les abeilles domestiques - 100% de l'humanitÃ© depend des pollinisateurs"
+        description = "On attends des apiculteurs qu'ils augmentent le nombre de ruches. On oublie que le mÃ©tier est dur, les investissments importants et les risques Ã©levÃ©es. L'IoT (Internet of Things) offre une aide consid?rable aux apiculteurs en offrant des solutions de tÃ©lÃ©surveillance. Encore faut-il que celles-ci soient abordables et fiables."
+        description2 = "BEE+ vise a offrir des solutions complÃ¨tes et innovantes couvrant tous les besoins des apiculteurs au plus bas cout possible."
 
         [[params.about.sliderItem]]
             image   = "images/about/1.jpg"
@@ -43,7 +43,7 @@ theme = "infinity-hugo"
         [[params.about.sliderItem]]
             image   = "images/about/2.jpg"
 
-    
+
     # Service Section
     [params.service]
         enable      = true
@@ -84,7 +84,7 @@ theme = "infinity-hugo"
             title   = "Fully SEO Optimized"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0.6s"
-        
+
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
@@ -120,8 +120,8 @@ theme = "infinity-hugo"
             title   = "Fully SEO Optimized"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "1.5s"
-    
-    
+
+
     # Call to Action Section
     [params.cta]
         enable      = true
