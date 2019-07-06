@@ -3,7 +3,7 @@ baseURL = "http://beeplus.eutopia.zone"
 languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
 title = "BEE+ by Eutopia"
-theme = "infinity-hugo"
+theme = "infinity-remy"
 
 [params]
 
@@ -22,7 +22,7 @@ theme = "infinity-hugo"
         title       = "BEE+"
         title2      = "L'Apiculture Augmentee"
         subtitle    = "L'IoT au service des Abeilles (Et surtout des humains)"
-        btnText     = ">>>>"
+        btnText     = "En savoir plus"
         countdownYear = "2019"
         countdownMonth = "08"
         countdownDay  = "01"
@@ -31,8 +31,12 @@ theme = "infinity-hugo"
     [params.about]
         enable      = true
         heading     = "25% des pollinisateurs sont sauvages - 75% des pollinisateurs sont les abeilles domestiques - 100% de l'humanité depend des pollinisateurs"
-        description = "On attends des apiculteurs qu'ils augmentent le nombre de ruches. On oublie que le métier est dur, les investissments importants et les risques élevées. L'IoT (Internet of Things) offre une aide consid?rable aux apiculteurs en offrant des solutions de télésurveillance. Encore faut-il que celles-ci soient abordables et fiables."
-        description2 = "BEE+ vise a offrir des solutions complètes et innovantes couvrant tous les besoins des apiculteurs au plus bas cout possible."
+        description = """\
+        On attends des apiculteurs qu'ils augmentent le nombre de ruches. On oublie que le métier est dur,
+        les investissments importants et les risques élevées.
+        L'IoT (Internet of Things) offre une aide consid?rable aux apiculteurs en offrant des solutions de télésurveillance. Encore faut-il que celles-ci soient abordables et fiables."
+        description2 = "BEE+ vise a offrir des solutions complètes et innovantes couvrant tous les besoins des apiculteurs au plus bas cout possible.
+        """
 
         [[params.about.sliderItem]]
             image   = "images/about/1.jpg"
