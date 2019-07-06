@@ -4,6 +4,10 @@
 # MacOS Craps
 .DS_Store
 
+# hugo tmp and static build
+/resources/_gen/
+/static/
+
 # Logs
 logs
 *.log
@@ -65,4 +69,4 @@ typings/
 
 # next.js build output
 .next
-/resources/_gen/
+
