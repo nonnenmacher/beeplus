@@ -2,7 +2,7 @@ baseURL = "http://beeplus.eutopia.zone"
 #languageCode = "en-us"
 languageCode = "fr-fr"
 title = "BEE+ by Eutopia"
-theme = "introduction"
+theme = "infinity-remy"
 
 DefaultContentLanguage = "fr"
 #DefaultContentLanguage           = "en"                    # Default language for multilingual sites
